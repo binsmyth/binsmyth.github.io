@@ -6,7 +6,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   I am a web developer. I have keen interest in functional programming.
   <br><br>
   <a href="https://www.linkedin.com/binsmyth/">View My LinkedIn Profile</a> 
-<h1>My Projects</h1>
+##My Projects
 
   
 theme: jekyll-theme-minimal
