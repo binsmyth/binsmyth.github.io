@@ -4,7 +4,8 @@
 
 ### Javascript projects
 
-[covid cases map] (/sample_page)
+---
+[Covid cases map] (/sample_page)
 <img src="#"/>
 
 ---
