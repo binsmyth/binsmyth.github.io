@@ -3,7 +3,8 @@
 ---
 
 ### Javascript projects
-
+# 1 Odin project demo
+[Google homepage clone](/theodinproject/google-homepage)
 ---
 [Covid cases map](/sample_page)
 <img src="#"/>
