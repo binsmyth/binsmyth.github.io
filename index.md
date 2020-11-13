@@ -4,7 +4,7 @@
 
 ### Javascript projects
 # 1 Odin project demo
-[Google homepage clone](binsmyth.github.io/theodinproject/google-homepage)
+[Google Homepage Clone](https://binsmyth.github.io/theodinproject/google-homepage/)
 ---
 [Covid cases map](/sample_page)
 <img src="#"/>
