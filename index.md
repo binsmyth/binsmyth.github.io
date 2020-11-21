@@ -2,12 +2,12 @@
 
 ---
 
-### Javascript projects
-# 1 Odin project demo
+## All my javascript projects
+
+# Odin project demos
+
 [Google Homepage Clone](https://binsmyth.github.io/theodinproject/google-homepage/)
----
-[Covid cases map](/sample_page)
-<img src="#"/>
+[Rock Paper Scissors](https://github.com/binsmyth/binsmyth.github.io/tree/master/theodinproject/rock-paper-scissors)
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
