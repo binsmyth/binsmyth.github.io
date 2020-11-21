@@ -1,13 +1,13 @@
-## My Projects
+### My Projects
 
 ---
 
 ## All my javascript projects
 
 # Odin project demos
+1.[Google Homepage Clone](https://binsmyth.github.io/theodinproject/google-homepage/)
 
-[Google Homepage Clone](https://binsmyth.github.io/theodinproject/google-homepage/)
-[Rock Paper Scissors](https://github.com/binsmyth/binsmyth.github.io/tree/master/theodinproject/rock-paper-scissors)
+2.[Rock Paper Scissors](https://github.com/binsmyth/binsmyth.github.io/tree/master/theodinproject/rock-paper-scissors)
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
