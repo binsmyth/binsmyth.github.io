@@ -3,7 +3,7 @@ import React from "react";
 const Examples = () =>{
     return(
         <>
-            <h2>Examples of my skills</h2>
+            <h1>Some of my work.</h1>
             <pre>
                 <code>
                     if(age{">"}=18)

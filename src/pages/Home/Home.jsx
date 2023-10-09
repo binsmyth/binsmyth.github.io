@@ -5,24 +5,23 @@ import { Link } from "react-router-dom";
 import Examples from "../Examples/Examples";
 import Tools from "../Tools/Tools";
 import Loader from "../../components/Loader/Loader";
+import Contact from "../Contact/Contact";
 
 const Home = () =>{
-    const [isLoading,setIsLoading] = useState(false);
-    useEffect(() => {
-        setTimeout(() => {
-            setIsLoading(true);
-        }, 4000);
+    const [isLoading, setIsLoading] = useState(true);
+    useEffect(() =>{
+        setTimeout(() => setIsLoading(false),4400);
     },[])
     return(
         <>
-            {isLoading ? 
-            <div>
+            {isLoading ? <Loader />:
+             <div>
                 <About />
                 <Skills />
                 <Examples />
                 <Tools />
-            </div>:
-            <Loader />}
+                <Contact />
+            </div>}
         </>
     )
 }

@@ -1,3 +1,19 @@
+.container{
+  position:absolute;
+  width:100%;
+  min-height:100vh;
+  overflow:auto;
+  background-color: black;
+}
+.hideContainer{
+  animation-iteration-count: 1;
+  animation-delay:2s;
+  animation-duration: 3s;
+  animation-name:hide;
+}
+body>iframe{
+  display:none;
+}
 .boxContainer{
     display:flex;
     justify-content:space-between;
@@ -12,7 +28,7 @@
     transform: scaleY(.4);
     height:100%;
     width:8px;
-    background: #000000;
+    background: white;
     animation-duration: 1.2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -22,22 +38,30 @@
     animation-name: quiet;
   }
   
-  .box2{
-    animation-name: normal;
-  }
-  
-  .box3{
-    animation-name: quiet;
-  }
-  
-  .box4{
-    animation-name: loud;
-  }
-  
-  .box5{
-    animation-name: quiet;
-  }
+.box2{
+  animation-name: normal;
+}
 
+.box3{
+  animation-name: quiet;
+}
+
+.box4{
+  animation-name: loud;
+}
+
+.box5{
+  animation-name: quiet;
+}
+
+@keyframes hide{
+  from{
+    opacity:100%;
+  }
+  to{
+    opacity:0%;
+  }
+}
 
 @keyframes quiet {
     25%{

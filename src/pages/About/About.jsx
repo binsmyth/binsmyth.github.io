@@ -1,15 +1,13 @@
 import React from "react";
-
+import './About.css';
+import donutGuy from '../../images/donut-guy.svg';
 const About = () =>{
     return(
         <>
-            <div>About Me</div>
-            <div>
-                <h1>Vineet Man Singh</h1>
-                <address>1/1707 Dandenong Rd, Oakleigh East, VIC 3166</address>
-                <h1>About Me</h1>
-                <p>Hi, I am Vineet, a web developer. I live in Melbourne. I am looking for work as a web developer. </p>
+            <div className="me-description">   
+                <p className="me-description-text">Hi, I am Vineet, a web developer.<img src={donutGuy} className="profile-pic" /> </p>  
             </div>
+            
         </>
     )
 }
