@@ -1,0 +1,18 @@
+.header-div{
+    top:4em;
+    padding-bottom:6em;
+    position:sticky;
+}
+.header-links{
+    position:relative;
+    background-color:rgba(53, 48, 48, 0.291);
+    color:rgb(198, 240, 221);
+    padding:1em;
+    border-radius:10px;
+    text-decoration: none;
+}
+.header-links:hover{
+    transition:all 0.5s linear;
+    transform:translateY(3px);
+    background-color:rgb(53, 48, 48);
+}

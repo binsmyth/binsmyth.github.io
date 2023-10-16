@@ -1,8 +1,40 @@
+.example{
+    background-color:rgba(251, 130, 130, 0.309);
+    padding-bottom:6.5em;
+}
+
 .example-borders{
-    border: solid 1px;
+    border: solid 1px rgb(0, 0, 0);
 }
 .work-examples{
-    width:500px;
-    height:500px;
-    object-fit: contain;
+    max-width: 600px;
+    aspect-ratio: 1000 / 500;
+    object-fit: cover;
+    border:solid 4px rgba(9, 9, 9, 0.466);
+    
+}
+.example-description{
+    float:right;
+    font-size:large;
+    height:50px;
+    line-height: 2em;
+}
+.example-div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:5em;
+}
+.example-link{
+    flex-basis:100%;
+}
+.description{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:5em;
+}
+.links{
+    display:flex;
+    gap:3em;
 }

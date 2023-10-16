@@ -1,0 +1,29 @@
+.contact-me-div{
+    margin-top:5em;
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    width:50%;
+    padding:5em;
+    background-color:bisque;
+}
+
+fieldset{
+    border:none;
+    display:grid;
+    grid-template-columns: auto auto;
+    gap:2em;
+}
+fieldset label{
+    padding:2em;
+    font-size:x-large;
+    text-align: left;
+}
+fieldset input{
+    padding:.5em;
+    height:5em;
+    font-size:large;
+    border:none;
+    border-radius: 5px;
+    border:solid 1px #8f8c8c60
+}

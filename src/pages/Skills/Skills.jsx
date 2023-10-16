@@ -6,7 +6,7 @@ import reactIcon from '../../images/react.svg';
 import '../Skills/Skills.css';
 const Skills = () =>{
     return(
-        <div className="skills">
+        <div id="skills" className="skills">
             <h1>Skills</h1>
             <ul>
                 <li><img className="skills-icon" src={jsIcon} alt="Javascript" /></li>

@@ -1,6 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@700&display=swap');
-body {
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@700,100&display=swap');
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+ }
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
   font-family: 'Sofia Sans Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
