@@ -1,5 +1,6 @@
 {
   "name": "vineet-portfolio",
+  "homepage":"binsmyth.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
