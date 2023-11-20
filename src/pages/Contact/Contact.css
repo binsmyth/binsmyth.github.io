@@ -1,29 +1,68 @@
-.contact-me-div{
+.contact-me-outer-div{
     margin-top:5em;
     display:flex;
-    flex-direction: column;
-    align-self: center;
-    width:50%;
-    padding:5em;
+    flex-direction:column;
+    align-self:center;
     background-color:bisque;
+    border-top-left-radius:3em;
+    border-top-right-radius: 3em;
+    width:calc(100% - 400px);
 }
-
+.contact-heading-top > h1{
+    line-height:2em;
+    padding:.5em;
+    color:white;
+}
+.contact-heading-top{
+    display:flex;
+    background-color:black;
+    max-width:100%;
+    border-top-left-radius:2em;
+    border-top-right-radius: 2em;
+    justify-content: center;
+}
+.contact-me-div{
+    display:flex;
+    gap:3em;
+    width:100%;
+    padding:3em;
+    margin-top:6em;
+    border-radius:5em;
+}
+.map{
+    width:500px;
+}
 fieldset{
     border:none;
     display:grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 40% 60%;
     gap:2em;
 }
 fieldset label{
-    padding:2em;
-    font-size:x-large;
-    text-align: left;
+    padding:0.5em;
+    font-size:large;
+    text-align:left;
 }
 fieldset input{
     padding:.5em;
-    height:5em;
+    height:2em;
     font-size:large;
     border:none;
-    border-radius: 5px;
-    border:solid 1px #8f8c8c60
+    border-radius:5px;
+    border:solid 1px #6a1a1a;
+    background-color: rgb(200, 196, 196);
+    color:white;
+}
+fieldset input::placeholder{
+    color:white;
+}
+.send-button{
+    background-color: firebrick;
+    color:white;
+    width:10em;
+    padding:1em 3em 1em 3em;
+    font-size:large;
+    border-radius:.2em;
+    border:none;
+    cursor: pointer;
 }

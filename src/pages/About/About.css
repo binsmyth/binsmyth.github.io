@@ -1,16 +1,18 @@
 .me-description{
-    padding:20px;
+    margin-top:1.5em;
+    padding: 70px;
     height:200px;
+    color:rgb(74, 71, 71);
 }
 .me-description-text{
-    font-size:5em;
+    font-size:3em;
 }
 .profile-pic{
     width:200px;
     height:200px;
 }
 .name{
-    color:yellow;
+    font-weight: bolder;
 }
 .detail-aboutme{
     padding-top:5em;
@@ -18,6 +20,8 @@
     background-color: rgba(255, 127, 80, 0.061);
 }
 .aboutme{
+    padding:5em;
     font-weight: 100;
-    font-size:x-large;
+    font-size:large;
+    color:rgb(74, 71, 71);
 }

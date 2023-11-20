@@ -1,24 +1,103 @@
 div.skills{
-    height:500px;
+    height:max-content;
     background-color:rgba(245, 245, 220, 0.54);
-    padding-bottom:33em;
+    padding-bottom:50px;
+    animation-name:opening;
 }
 ul{
     display:flex;
     justify-content: space-evenly;
+    cursor: pointer;
 }
-ul>li{
+ul>span{
+    position:relative;
+    margin-top:0px;
+}
+ul li{
     border:solid 10px rgb(255, 255, 255);
     background-color:rgb(255, 255, 255);
     padding:40px;
     border-radius:20%;
     list-style-type:none;
 }
-ul>li:hover{
+ul li:hover{
     transition:transform .4s ease-in-out;
     transform:scale(105%);
+    z-index:1
 }
 .skills-icon{
-    width:100px;
-    height:100px;
+    width:50px;
+    height:50px;
+}
+.skills-icon-div{
+    display:flex;
+    flex-direction: column;
+}
+.skills-icon-div p{
+    margin-top:10px;
+}
+.skills-description>p{
+    padding:1em;
+    font-weight: 100;
+    font-size: large;
+    color: rgb(74, 71, 71);
+    position:relative;
+    margin:auto auto 10em auto;
+    text-align:justify;
+    width:50%;
+}
+.skills-description{
+    position:relative;
+    padding:33px;
+    height:244px; 
+}
+.fade-in{
+    animation: fadein 1s forwards, move-up 1s forwards;
+}
+.hide{
+    display:none;
+    visibility:hidden;
+    height:0;
+    animation:fadeout 2s forwards;
+}
+.slide-skills{
+    transition:1s;
+    margin-left:0;
+}
+.skills-list{
+    margin-left:-1000em;
+}
+/* @keyframes slide{
+    0%{
+        left:-100px;
+    }
+    100%{
+
+    }
+} */
+@keyframes fadein {
+    0% {
+      opacity:0;
+    }
+  
+    100% {
+      opacity:1;
+    }
+}
+@keyframes fadeout{
+    100% {
+        opacity:1;
+    }
+    0%{
+        opacity:0;
+        height:0;
+    }
+}
+@keyframes move-up{
+    0%{
+        transform:translateY(0em);
+    }
+    100%{
+        transform: translateY(-5%);
+    }
 }

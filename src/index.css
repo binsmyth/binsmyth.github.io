@@ -4,16 +4,22 @@
   padding: 0;
   box-sizing: border-box; 
  }
-
+:root{
+  color-scheme: light dark;
+}
 html{
   scroll-behavior: smooth;
 }
+
 
 body {
   font-family: 'Sofia Sans Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: aqua;
+  background-color: #eba0586b;
+  @media screen and (prefers-color-scheme:dark){
+    background-color: #412c186b;
+  }
 }
 
 code {

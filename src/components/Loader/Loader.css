@@ -6,6 +6,7 @@
   min-height:100vh;
   overflow:auto;
   background-color: black;
+  z-index:999;
 }
 .hideContainer{
   animation-iteration-count: 1;
