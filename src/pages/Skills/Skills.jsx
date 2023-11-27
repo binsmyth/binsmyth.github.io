@@ -62,7 +62,7 @@ const Skills = () =>{
                 </p>
             </div>
             <div className={multipleSkills.skill0 ? 'skills-description fade-in': 'skills-description hide'}>
-                <p>Over the years, I have honed some of these skills by learning on my own and bootcamp.</p>
+                <p>Over the years, I have honed some of these skills by learning on my own and bootcamp. Some of these skills are listed below.</p>
             </div>
             
             <ul ref={ref} className={slideSkills ? 'slide-skills':'skills-list'}>

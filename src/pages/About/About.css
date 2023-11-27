@@ -7,9 +7,19 @@
 .me-description-text{
     font-size:3em;
 }
+@media (max-width:425px){
+    .me-description-text{
+        font-size:2em;
+    }
+}
 .profile-pic{
     width:200px;
     height:200px;
+}
+@media (max-width:425px){
+    .profile-pic{
+        margin-top:25px;
+    }
 }
 .name{
     font-weight: bolder;
@@ -17,11 +27,27 @@
 .detail-aboutme{
     padding-top:5em;
     padding-bottom:5em;
+    height:382px;
     background-color: rgba(255, 127, 80, 0.061);
 }
+@media(max-width:425px){
+    .detail-aboutme{
+        height:initial;
+        padding-bottom:initial;
+    }
+}
 .aboutme{
-    padding:5em;
+    margin:100px auto;
     font-weight: 100;
     font-size:large;
+    width:700px;
     color:rgb(74, 71, 71);
+}
+@media(max-width:425px){
+    .aboutme{
+        width:100%;
+        padding:15px;
+        font-size:15px;
+        text-align:justify;
+    }
 }

@@ -12,9 +12,15 @@
 .work-examples{
     max-width: 600px;
     aspect-ratio: 1000 / 600;
-    object-fit: cover;
+    object-fit: contain;
     /* border:solid 14px rgba(9, 9, 9, 0.466); */
     
+}
+@media (max-width:425px){
+    .work-examples{
+        max-width:300px;
+        object-fit:contain;
+    }
 }
 .example-description{
     float:right;
@@ -56,7 +62,7 @@
     bottom:0;
     background-color:rgba(0, 0, 0, 0.8);
     opacity:0;
-    height: 14.927em;
+    height: 14.94em;
     width: 24.633em;
     padding:.5em;
     transition: opacity 1s ease-in;

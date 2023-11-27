@@ -3,6 +3,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import './Header.css';
 import mainIcon from '../../images/vineet logo.svg';
 import {BsGithub, BsLinkedin} from 'react-icons/bs';
+import { GiHamburgerMenu } from "react-icons/gi";
 import debounce from 'lodash.debounce';
 
 const Header = () =>{
@@ -27,6 +28,10 @@ const Header = () =>{
     return(
         <>
             <div className="sticky-header">
+                <div className="hamburger-menu">
+                    <button><GiHamburgerMenu />
+                    </button>
+                </div>
                 <div id="header-div" className={isScrolled ? 'header-div active':'header-div'}>
                     <img src={mainIcon} width={200} className="my-icon"/>
                     <a className="header-links" href="#home"> <div>Home</div></a>
