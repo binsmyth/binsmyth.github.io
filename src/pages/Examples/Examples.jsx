@@ -23,7 +23,7 @@ const Examples = () =>{
                     <div className="description">
                         <h2>Himalayan Spice Heaven</h2>
                         <p className="example-description">This is a pokedex app built with react. It uses poke api. </p>
-                        <div className="example-links"><a href="https://google.com" className="example-view-live">View Live</a> <a href="#" className="example-view-live">View Code</a></div>
+                        <div className="example-links"><a href="https://63d1f5c1fdc6420009d8d627--relaxed-raindrop-d51fe7.netlify.app/" className="example-view-live">View Live</a> <a href="#" className="example-view-live">View Code</a></div>
                     </div>
                 </div>
                 <div className="example-details">This app helps anyone interested in world of pokemon to quickly view stats on different pokemons.</div>
