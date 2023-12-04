@@ -1,6 +1,7 @@
 .example{
     background-color:rgba(251, 130, 130, 0.309);
     min-height:50em;
+    height:1000px;
     display:flex;
     flex-direction: column;
     position:relative;
@@ -32,6 +33,15 @@
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
+    grid-gap:70px;
+}
+@media (max-width:425px){
+    .example-showcase-details{
+        margin-bottom: 100px;
+        grid-template-columns:initial;
+        grid-template-rows:auto auto;
+        grid-gap:10px;
+    }
 }
 .example-div{
     position:relative;

@@ -1,5 +1,5 @@
 div.skills{
-    height:max-content;
+    height: 704px;
     background-color:rgba(245, 245, 220, 0.54);
     padding-bottom:50px;
     animation-name:opening;
@@ -22,7 +22,7 @@ ul li{
 }
 @media (max-width:425px){
     ul li{
-        padding:10px;
+        padding:1px;
     }
 }
 ul li:hover{
@@ -62,7 +62,7 @@ ul li:hover{
 .skills-description{
     position:relative;
     padding:33px;
-    height:244px; 
+    height:318px;
 }
 @media(max-width:425px){
     .skills-description{

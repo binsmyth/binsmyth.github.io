@@ -1,12 +1,22 @@
+.contact{
+    display:flex;
+    justify-content:center;
+    height: 1148px;
+}
 .contact-me-outer-div{
     margin-top:5em;
+    max-height: 992px;
     display:flex;
     flex-direction:column;
-    align-self:center;
     background-color:bisque;
     border-top-left-radius:3em;
     border-top-right-radius: 3em;
     width:calc(100% - 400px);
+}
+@media(max-width:425px){
+    .contact-me-outer-div{
+        width:calc(100% - 40px);
+    }
 }
 .contact-heading-top > h1{
     line-height:2em;
@@ -29,6 +39,13 @@
     margin-top:6em;
     border-radius:5em;
 }
+@media(max-width:425px){
+    .contact-me-div{
+        padding:1em;
+        gap:1em;
+        margin-top:1em;
+    }
+}
 .map{
     width:500px;
 }
@@ -38,10 +55,21 @@ fieldset{
     grid-template-columns: 40% 60%;
     gap:2em;
 }
+@media(max-width:425px){
+    fieldset{
+        gap:1em;
+    }
+}
 fieldset label{
     padding:0.5em;
     font-size:large;
     text-align:left;
+}
+@media(max-width:425px){
+    fieldset label{
+        padding:initial;
+        font-size:small;
+    }
 }
 fieldset input{
     padding:.5em;
@@ -53,8 +81,19 @@ fieldset input{
     background-color: rgb(200, 196, 196);
     color:white;
 }
+@media(max-width:425px){
+    fieldset input{
+        font-size:small;
+        width:170px;
+    }
+}
 fieldset input::placeholder{
     color:white;
+}
+@media(max-width:425px){
+    fieldset textarea{
+        height:150px;
+    }
 }
 .send-button{
     background-color: firebrick;

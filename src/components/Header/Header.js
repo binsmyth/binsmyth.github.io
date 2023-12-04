@@ -34,10 +34,10 @@ const Header = () =>{
                 </div>
                 <div id="header-div" className={isScrolled ? 'header-div active':'header-div'}>
                     <img src={mainIcon} width={200} className="my-icon"/>
-                    <a className="header-links" href="#home"> <div>Home</div></a>
-                    <a className="header-links" href="#skills"><div>Skills</div></a>
-                    <a className="header-links" href="#examples"><div>Work Examples</div></a>
-                    <a className="header-links" href="#contact"><div>Contact</div></a>
+                    <a className="header-links" href="/"> <div>Home</div></a>
+                    <a className="header-links" href="/skills"><div>Skills</div></a>
+                    <a className="header-links" href="/examples"><div>Work Examples</div></a>
+                    <a className="header-links" href="/contact"><div>Contact</div></a>
                     <div className="social-links">
                         <a href='https://github.com/binsmyth'><BsGithub size={40} className={isScrolled ? 'social-icon big':'social-icon'}/></a>
                         <a href='https://www.linkedin.com/in/vineet-man-singh-4b274b71/'><BsLinkedin size={40} className={isScrolled ? 'social-icon big':'social-icon'}/></a>

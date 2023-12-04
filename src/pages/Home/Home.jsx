@@ -18,14 +18,7 @@ const Home = () =>{
     
     return(
         <>
-            {isLoading && <Loader />}
-             <div id="home" className="home-div">
-                <Header />
-                <About />
-                <Skills />
-                <Examples />
-                <Contact />
-            </div>
+            <About />
         </>
     )
 }

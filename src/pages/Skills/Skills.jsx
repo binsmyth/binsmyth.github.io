@@ -18,20 +18,6 @@ const Skills = () =>{
         /* Optional options */
         threshold: 0,
       });
-    // const skillRef = useRef(null);  
-    // useLayoutEffect(() => {
-    //         window.addEventListener('scroll', onScroll)
-    //         return () => window.removeEventListener('scroll',onScroll);
-    // },[])
-    // const onScroll = () => {   
-    //     const topPos = skillRef.current.getBoundingClientRect().top;    
-    //     const scrollPos = window.scrollY + window.innerHeight;
-    //     if (topPos < scrollPos){
-    //         console.log("scrolled area reached", scrollPos);
-    //         console.log("scrollPos", scrollPos);
-    //     }
-    //     console.log('scrolled');
-    // }
     useEffect(() =>{
         if (inView) {
             setSlideSkills(true);
