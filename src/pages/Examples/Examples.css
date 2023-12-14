@@ -1,10 +1,11 @@
 .example{
     background-color:rgba(251, 130, 130, 0.309);
     min-height:50em;
-    height:1000px;
+    height:max-content;
     display:flex;
     flex-direction: column;
     position:relative;
+    padding-bottom: 72px;
 }
 /* hello */
 .example-borders{
@@ -66,14 +67,14 @@
     align-items: center;
     gap:1.2em;
     position:absolute;
-    top: 3.58em;
-    left: 6.43em;
+    top: 24px;
+    left: 82px;
     right:0;
     bottom:0;
     background-color:rgba(0, 0, 0, 0.8);
     opacity:0;
-    height: 14.94em;
-    width: 24.633em;
+    height: 283px;
+    width: 449px;
     padding:.5em;
     transition: opacity 1s ease-in;
 }

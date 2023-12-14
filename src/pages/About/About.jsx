@@ -10,7 +10,7 @@ const About = () =>{
             </div>
             <div className="detail-aboutme">
                 <p className="aboutme">
-                    Ever since, I got my first computer I have been curious about programming. <strong>Qbasic</strong> was the thing that fascinated me when young, it got me thinking of possibilites of what i could make. Since coming to australia, I have been in a journey as a web developer participating in <strong>internships</strong>, <strong>volunteering</strong> and <strong>freelancing</strong>.
+                    Ever since, I got my first computer I have been curious about programming. <strong>Qbasic</strong> was the thing that fascinated me when young, it got me thinking of possibilites of what i could make. Since coming to Australia, I have been in a journey as a web developer participating in <strong>internships</strong>, <strong>volunteering</strong> and <strong>freelancing</strong>.
                 </p>
             </div>
         </>
