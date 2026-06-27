@@ -1,8 +1,4 @@
-import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
-import jsIcon from '../../images/js.svg';
-import cssIcon from '../../images/css3.svg';
-import htmlIcon from '../../images/html5.svg';
-import reactIcon from '../../images/react.svg';
+import React, { useEffect, useState } from "react";
 import { BiLogoCss3, BiLogoHtml5, BiLogoJavascript, BiLogoPostgresql, BiLogoReact } from "react-icons/bi";
 
 import '../Skills/Skills.css';
@@ -17,7 +13,7 @@ const Skills = () =>{
         skill5:false
     });
     const [slideSkills, setSlideSkills] = useState(false);
-    const { ref, inView, entry } = useInView({
+    const { ref, inView } = useInView({
         /* Optional options */
         threshold: 0,
       });

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { HashLink as Link } from 'react-router-hash-link';
 import './Header.css';
 import mainIcon from '../../images/vineet logo.svg';
 import {BsGithub, BsLinkedin} from 'react-icons/bs';
@@ -19,7 +18,6 @@ const Header = () =>{
     const debouncedScroll = debounce(changeNav, 20)
     useEffect(()=>{
         console.log(window.scrollY);
-        let header = document.getElementById("header-div");
         document.addEventListener("scroll",debouncedScroll)
         return () =>{
             document.removeEventListener("scroll",debouncedScroll);
@@ -33,7 +31,7 @@ const Header = () =>{
                     </button>
                 </div>
                 <div id="header-div" className={isScrolled ? 'header-div active':'header-div'}>
-                    <img src={mainIcon} width={200} className="my-icon"/>
+                    <img src={mainIcon} width={200} className="my-icon" alt="Vineet logo"/>
                     <a className="header-links" href="/"> <div>Home</div></a>
                     <a className="header-links" href="/skills"><div>Skills</div></a>
                     <a className="header-links" href="/examples"><div>Work Examples</div></a>

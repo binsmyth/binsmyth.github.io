@@ -6,7 +6,7 @@ const About = () =>{
     return(
         <>
             <div className="me-description">   
-                <p className="me-description-text">Hi, I am <span className="name">Vineet</span>, a web developer.<img src={donutGuy} className="profile-pic" /> </p>  
+                <p className="me-description-text">Hi, I am <span className="name">Vineet</span>, a web developer.<img src={donutGuy} className="profile-pic" alt="Profile" /> </p>  
             </div>
             <div className="detail-aboutme">
                 <p className="aboutme">
